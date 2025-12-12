@@ -12,7 +12,7 @@ NAISS Support will have limited availability during the summer and Christmas per
 
 ## Arrhenius
 
-## Bianca
+## [Bianca](https://docs.uppmax.uu.se/cluster_guides/bianca/)
 
 ## Dardel
 
