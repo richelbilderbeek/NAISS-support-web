@@ -59,7 +59,9 @@ nav:
           - Installing software using EasyBuild: dardel/software_development/easybuild.md
           - Installing software using Spack: dardel/software_development/spack.md
       - Frequently Asked Questions (FAQ):
-          - Frequently Asked Questions (FAQ): dardel/faq/faq.md
+          - Contributing: docs/CONTRIBUTING.md
+          - General FAQ: docs/faq.md
+          - Dardel FAQ: dardel/faq/faq.md
   - Contact Support: contact/contact_support.md
   - Courses: courses/index.md
   - Available software:
