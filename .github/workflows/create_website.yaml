@@ -4,6 +4,12 @@ name: Create website
 on:
   push:
 
+# Needed by Zensical
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
