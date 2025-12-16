@@ -179,11 +179,11 @@ nav = [
 # 
 # 
 
-[project.theme]
+extra_css = ["static/css/styles.css"]
+
 # https://zensical.org/docs/setup/basics/?h=theme#theme-variant
 #variant = "classic"
 
-extra_css = ["static/css/styles.css"]
 
 # https://zensical.org/docs/customization/#extending-the-theme
 #custom_dir = "docs/overrides"
