@@ -7,12 +7,11 @@ repo_url = "https://github.com/menzzana/NAISS-support-web"
 edit_uri = "blob/main/docs/"
 
 nav = [
-  { "Home" = "index.md"}
-#  { "Requesting resources" = [
-#      { "Getting Access" = "getting_access/get_access.md" },
-#      { "Software Development Assistance" = "getting_access/dev_support.md" } ,
-#    ]
-#  },
+  { "Home" = "index.md"},
+  { "Requesting resources" = [
+    { "Getting Access" = "getting_access/get_access.md" },
+    { "Software Development Assistance" = "getting_access/dev_support.md" } ,
+  ]},
 #  { "Dardel" = [
 #      { "Quick Start" = "dardel/basics/quickstart.md" },
 #      { "Introduction" = "dardel/basics/introduction.md" },
