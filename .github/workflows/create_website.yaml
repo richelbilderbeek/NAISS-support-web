@@ -14,6 +14,9 @@ jobs:
         with:
           python-version: 3.x
 
+      - name: Install Python libraries
+        run: pip instal yaml
+
       - name: Create software table
         run: python3 format_software_info.py
 
