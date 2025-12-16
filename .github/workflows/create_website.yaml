@@ -29,3 +29,4 @@ jobs:
       - name: Zensical Action
         id: zensical
         uses: cssnr/zensical-action@v1
+
