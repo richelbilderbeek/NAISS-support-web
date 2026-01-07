@@ -1,4 +1,5 @@
 # NAISS support documentation
+
 Support documentation for NAISS.
 These pages are written using Hugo, with the exception
 of the support/software pages which are written in mkDocs.
@@ -6,7 +7,7 @@ Both tools however enable to publish material in MarkDown.
 
 ## Installation and using mkDocs
 
-1. Find instructions at https://www.Zensical.org/getting-started/
+1. Find instructions at [the Zensical documentation](https://zensical.org/docs/get-started/)
 2. You need some extra extensions to render these documents
    1. In order to install attr_list, adminition and superfences
       `pip install Zensical-material`
