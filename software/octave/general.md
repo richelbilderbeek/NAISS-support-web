@@ -21,5 +21,5 @@ local$ ssh -Y username@t02n01.pdc.kth.se #username/node should be changed to you
 t02n01$ module add octave/4.2.1
 t02n01$ octave
 ```
-Formation on how to run program interactively on Tegner, see https://www.pdc.kth.se/resources/computers/tegner/how-to/run .
+Formation on how to run program interactively on Tegner, see https://support.pdc.kth.se/doc/run_jobs/job_scheduling/ .
 

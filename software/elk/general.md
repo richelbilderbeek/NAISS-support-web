@@ -55,7 +55,7 @@ srun --hint=nomultithread -n 16 elk > out.log
 echo "Script finished at `date` on `hostname`"
 ```
 
-For information on how to submit jobs on Dardel, see [Queueing jobs](https://support.pdc.kth.se/doc/support-docs/run_jobs/job_scheduling/).
+For information on how to submit jobs on Dardel, see [Queueing jobs](https://support.pdc.kth.se/doc/run_jobs/job_scheduling/).
 
 ## How to build Elk
 
@@ -68,7 +68,7 @@ ml easybuild-user/4.9.4
 eb elk-10.4.9-cpeGNU-24.11.eb --robot
 ```
 
-See also [Installing software using EasyBuild](https://support.pdc.kth.se/doc/support-docs/software_development/easybuild/).
+See also [Installing software using EasyBuild](https://support.pdc.kth.se/doc/software_development/easybuild/).
 
 ## Species files, example input files, and Elk make.inc file.
 

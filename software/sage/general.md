@@ -21,7 +21,7 @@ local$ ssh -Y username@t02n01.pdc.kth.se #username/node should be changed to you
 t02n01$ module add sage/7.0
 t02n01$ sage
 ```
-Formation on how to run program interactively on Tegner, see https://www.pdc.kth.se/resources/computers/tegner/how-to/run .
+Formation on how to run program interactively on Tegner, see https://support.pdc.kth.se/doc/run_jobs/job_scheduling/ .
 
 ## Submit a sage job on Tegner
 Let’s use the following example for a sage job. The sage script called *test.sage* includes all commands will be run.
@@ -33,5 +33,5 @@ $ sbatch sage_run.sh
 In this example, we requested one node for one hour to run the sage script. After finish the job, the result
 [x == -2, x == -1]
 should be redirected to the file *my_output_file*
-Formation on how to submit jobs on Tegner, see `Job Submission on Tegner <https://www.pdc.kth.se/resources/computers/tegner/how-to/run>`_ .
+Formation on how to submit jobs on Tegner, see `Job Submission on Tegner <https://support.pdc.kth.se/doc/run_jobs/job_scheduling/>`_ .
 

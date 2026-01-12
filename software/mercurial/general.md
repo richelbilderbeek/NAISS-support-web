@@ -2,5 +2,5 @@ Mercurial is a cross-platform, distributed revision control tool for software de
 It is mainly implemented using the Python programming language, but includes a binary diff
 implementation written in C. It is supported on MS Windows and Unix-like systems, such as
 FreeBSD, Mac OS X and Linux
-More information can be found here <http://mercurial.selenic.com/wiki>
+More information can be found here <http://mercurial.selenic.com/>
 

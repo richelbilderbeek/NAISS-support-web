@@ -45,7 +45,7 @@ If you decide to use the resources, welcome on board! We provide you with:
 NAISS resources are available for both business and academic research.
 Academic researchers (from Sweden or Europe) may apply for free time/storage allocations.
 Swedish academic researchers and their collaborators will need to apply for an allocation of time/storage
-for their projects via [NAISS](https://www.pdc.kth.se/support/documents/getting_access/get_access.html).
+for their projects via [NAISS](https://www.pdc.kth.se/doc/documents/getting_access/get_access.html).
 
 ### Account and Time Allocation
 

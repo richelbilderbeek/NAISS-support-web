@@ -26,7 +26,7 @@ runTimeModifiable                   no;
 ```
 **It is highly recommended that you run OpenFoam on your project directory to avoid any disk quota problems**
 
-See [https://www.pdc.kth.se/support/documents/data_management/lustre.html](https://www.pdc.kth.se/support/documents/data_management/lustre.html) for more information about the project directory
+See [https://www.pdc.kth.se/doc/documents/data_management/lustre.html](https://www.pdc.kth.se/doc/documents/data_management/lustre.html) for more information about the project directory
 
 
 ## How to use

@@ -4,7 +4,7 @@
 
 KTH provides cloud storage to all employees and students through Microsoft OneDrive. The cloud storage can be used for research data not actively in use at PDC, and has options for sharing data between users etc. This page describes how to transfer files between PDC and KTH OneDrive. Other universities may provide similar services.
 
-You can read more information about KTH onedrive at the KTH web depending if you are an [employee](https://intra.kth.se/it/dokument/spara-filer-i-molnet/faq-for-kth-onedrive) or a [student](https://www.kth.se/en/student/it/work-online/kth-onedrive/faq-for-kth-onedrive).
+You can read more information about KTH onedrive at the KTH web depending if you are an employee or a student.
 
 ## Configuring rclone
 

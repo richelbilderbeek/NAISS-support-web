@@ -36,7 +36,7 @@ ml lammps/2Aug2023-cpeGNU-23.12
 srun lmp < infile > outfile
 ```
 
-This will run LAMMPS (`lmp`) with 256 cores (2 nodes), and will read the input specified in `infile` and write to `outfile` in the directory the job was submitted. Submit the batch script with the `sbatch` command, see also the [How to run jobs](https://www.pdc.kth.se/support/documents/run_jobs/job_scheduling.html).
+This will run LAMMPS (`lmp`) with 256 cores (2 nodes), and will read the input specified in `infile` and write to `outfile` in the directory the job was submitted. Submit the batch script with the `sbatch` command, see also the [How to run jobs](https://www.pdc.kth.se/doc/documents/run_jobs/job_scheduling.html).
 
 ## How to build LAMMPS
 
@@ -49,7 +49,7 @@ ml easybuild-user/4.9.1
 eb lammps-29Aug2024-cpeGNU-23.12.eb --robot
 ```
 
-See also [Installing software using EasyBuild](https://support.pdc.kth.se/doc/support-docs/software_development/easybuild/).
+See also [Installing software using EasyBuild](https://support.pdc.kth.se/doc/software_development/easybuild/).
 
 ## More information
 For more information, refer to the [LAMMPS manual](https://docs.lammps.org/Manual.html).

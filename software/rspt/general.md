@@ -50,7 +50,7 @@ runs "srun -n 256 rspt" 1e-09 100
 echo "Script finished at `date` on `hostname`"
 ```
 
-For information on how to submit jobs on Dardel, see [Queueing jobs](https://www.pdc.kth.se/support/documents/run_jobs/queueing_jobs.html).
+For information on how to submit jobs on Dardel, see [Queueing jobs](https://www.pdc.kth.se/doc/documents/run_jobs/queueing_jobs.html).
 
 ## How to build RSPt
 
@@ -63,7 +63,7 @@ ml easybuild-user/4.9.4
 eb rspt-20250228-cpeGNU-24.11.eb --robot
 ```
 
-See also [Installing software using EasyBuild](https://support.pdc.kth.se/doc/support-docs/software_development/easybuild/).
+See also [Installing software using EasyBuild](https://support.pdc.kth.se/doc/software_development/easybuild/).
 
 ## Example input files, and RPSTmake.inc file.
 

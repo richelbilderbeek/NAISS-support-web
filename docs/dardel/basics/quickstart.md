@@ -336,7 +336,7 @@ For more details on how to write batch scripts and submit batch jobs to queues, 
 
 In this example we will perform a calculation on two Dardel CPU compute nodes with
 the [ABINIT](https://www.abinit.org/) package for modeling of condensed matter.
-The example calculation is a density functional theory (DFT) simulation of the properties of the material SrVO3. ABINIT is available as a PDC center installed software, as listed on the page [Available Software](https://support.pdc.kth.se/doc/applications/). Reference information on how to use and build ABINIT on Dardel can be found at [ABINIT](https://support.pdc.kth.se/doc/software-docs/abinit/).
+The example calculation is a density functional theory (DFT) simulation of the properties of the material SrVO3. ABINIT is available as a PDC center installed software, as listed on the page [Available Software](https://support.pdc.kth.se/doc/applications/). Reference information on how to use and build ABINIT on Dardel can be found at [ABINIT](https://support.pdc.kth.se/doc/applications/abinit/).
 
 We activate the ABINIT software module with
 
@@ -448,9 +448,9 @@ More details on this particular example can be found in the ABINIT [tutorial on 
 
 [Dardel HPE Cray EX supercomputer at PDC](https://www.pdc.kth.se/hpc-services/computing-systems/){:target="_blank"}
 
-[PDC Available Software](https://www.pdc.kth.se/software/){:target="_blank"}
+[PDC Available Software](https://www.pdc.kth.se/doc/applications/){:target="_blank"}
 
-[PDC Support web pages](https://www.pdc.kth.se/support/){:target="_blank"}
+[PDC Support web pages](https://www.pdc.kth.se/doc/){:target="_blank"}
 
 [HPE Cray EX product line](https://www.hpe.com/us/en/compute/hpc/supercomputing/cray-exascale-supercomputer.html/){:target="_blank"}
 

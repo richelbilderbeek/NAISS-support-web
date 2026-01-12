@@ -9,8 +9,7 @@ More information is avialable at <http://pencil-code.nordita.org/>
 
 Since 21 September 2008 the Pencil Code is available under
 <http://code.google.com/p/pencil-code/>
-To check out the code, follow the notes on:
-<http://www.nordita.org/software/pencil-code/svn-transition-google.html>
+
 To get started, run one of the samples
 ```
 unix\>  cd pencil-code

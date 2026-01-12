@@ -86,7 +86,7 @@ a sandbox.
 ### Building your own image from recipes
 
 You can also create an image using a recipe from our PDC github. apptainer recipes with MPI support are available at
-[https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/apptainer](https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/apptainer)
+[https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/singularity](https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/singularity)
 In order to create these
 
 ```text
@@ -232,7 +232,7 @@ in the PDC Hub, but you can also build your own.
 ## How to remote build an apptainer image on the cluster
 
 Instead of creating containers by running Apptainer locally on your computer, you can remote build with an Apptainer recipe.
-You can find example recipes here: https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/apptainer
+You can find example recipes here: https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/singularity
 
 In the following description, we demonstrate how to use PDC’s free service for building sandboxes remotely.
 
@@ -294,7 +294,7 @@ In order to get information about what they contain please run
 apptainer run-help $PDC_SHUB/<sandbox name>
 ```
 
-Recipes on how several of these container are bult is available at [https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/apptainer](https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/apptainer)
+Recipes on how several of these container are bult is available at [https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/singularity](https://github.com/PDC-support/PDC-SoftwareStack/tree/master/other/singularity)
 
 ### Job scripts
 

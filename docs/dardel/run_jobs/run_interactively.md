@@ -55,7 +55,7 @@ The name for the booked node be found using
 echo $SLURM_NODELIST
 ```
 
-If you’re running a specific software, please see the [How to use module to load different softwares into your environment](../software/module.md) and [Available software](https://www.pdc.kth.se/software) .
+If you’re running a specific software, please see the [How to use module to load different softwares into your environment](../software/module.md) and [Available software](https://www.pdc.kth.se/doc/applications) .
 
 !!! note Keep in mind that after *salloc* you’re still in the Login Node! if you execute a program without the specific commands the program will be running in the login node!
 
