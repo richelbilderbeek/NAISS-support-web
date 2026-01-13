@@ -111,19 +111,21 @@ def getClusterText(resource,clusters):
       return cluster['cluster']+"/"+resource
   return ""
 #-------------------------------------------------------------------------------
-# Write the YAML file with categories and software
+# Write the TOML file with categories and software
 def writeYAMLMenu(keywords):
-  fp=open("mkdocs.yaml","a")
+  fp=open("zensical.toml","a")
   keywords=dict(sorted(keywords.items()))
   for key in keywords:
     keywords[key].sort()
-    fp.write("    - %s:\n" % (key.capitalize()))
+    fp.write("    { \"%s\" = [\n" % (key.capitalize()))
     for value in keywords[key]:  
-      fp.write("      - %s: %s\n" % (value.capitalize(),os.path.join("applications",value,"index.md")))
+      fp.write("      { \"%s\" = \"%s\" },\n" % (value.capitalize(),os.path.join("applications",value,"index.md")))
+    fp.write("    ]},\n")
+  fp.write("  ]},\n]")
   fp.close()
 #-------------------------------------------------------------------------------
 def main():
-  os.system("cp template/mkdocs.yaml .")
+  os.system("cp template/zensical.toml .")
   os.system("mkdir -p %s" % (SOFTWARE_DOCS,))
   os.system("cp template/index.md %s" % (SOFTWARE_DOCS,))
   with open("clusters.yaml", 'r') as file:

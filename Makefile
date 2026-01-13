@@ -21,4 +21,4 @@ serve:
 clean:
 	rm -rf site
 	rm -rf docs/applications
-	rm -f mkdocs.yaml
+	rm -f zensical.toml
