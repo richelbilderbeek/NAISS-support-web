@@ -46,17 +46,30 @@ Files for different software should be stored under *software/[software name]*
 1. **versions.yaml** A YAML file containing information about at which clusters the software is installed and what versions are installed
 1. **keywords.yaml** A YAML file containing information about what keywords could be associated with the software
 
-## build site
+## Build site
 
-To create material for Zensical just `zensical build`
-which will create a `site` folder with all HTML files
-for both hugo and Zensical.
-This folder can the be moved to the actual site.
+To build the website, use:
 
-### Running site locally
+```text
+make build
+```
 
-In order to start Zensical at the local computer use `zensical serve`
-from top level folder and navigate to `https://127.0.0.1:1313`
+
+
+## Run website locally
+
+To build the website, use:
+
+```text
+make serve
+```
+
+Using `zensical serve` will fail, as `zensical.toml` is in the `template`
+folder in an intentionally broken state.
+The [`format_software_info.py`](format_software_info.py) script creates
+a working `zensical.toml` file.
+
+You can now use a webbrowser to see the site at `https://127.0.0.1:1313`.
 
 ## publish site
 
