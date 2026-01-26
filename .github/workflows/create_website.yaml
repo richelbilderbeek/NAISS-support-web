@@ -26,7 +26,9 @@ jobs:
         run: python3 format_software_info.py
 
       - name: Put TOML file where it is expected to be
-        run: cp template/zensical.toml .
+        run: |
+          cp template/zensical.toml .
+          ls
 
       # From https://github.com/marketplace/actions/zensical-action#deploy
       - name: Zensical Action
