@@ -54,6 +54,12 @@ To build the website, use:
 make build
 ```
 
+Using `zensical build` will fail, as
+[`template/zensical.toml`](template/zensical.toml) is
+(1) not in the root folder, (2) in an intentionally broken state.
+The [`format_software_info.py`](format_software_info.py) script creates
+a working `zensical.toml` file.
+
 
 
 ## Run website locally
@@ -64,15 +70,14 @@ To build the website, use:
 make serve
 ```
 
-Using `zensical serve` will fail, as `zensical.toml` is in the `template`
-folder in an intentionally broken state.
+Using `zensical serve` will fail, as
+[`template/zensical.toml`](template/zensical.toml) is
+(1) not in the root folder, (2) in an intentionally broken state.
 The [`format_software_info.py`](format_software_info.py) script creates
 a working `zensical.toml` file.
 
 You can now use a webbrowser to see the site at `https://127.0.0.1:1313`.
 
-## publish site
+## Publish site
 
-In order to publish these documents to the official NAISS webportal we need to have a way to access this, which
-is not in place at the moment.
-Publishing is achieve by running command `make public` 
+The site is published automatically upon a `git push`.
