@@ -1,9 +1,8 @@
 # NAISS support documentation
 
-Support documentation for NAISS.
-These pages are written using Hugo, with the exception
-of the support/software pages which are written in mkDocs.
-Both tools however enable to publish material in MarkDown.
+This is the documentation for NAISS support.
+
+- [Go to the nicely rendered pages](https://menzzana.github.io/NAISS-support-web/)
 
 ## Installation and using mkDocs
 
