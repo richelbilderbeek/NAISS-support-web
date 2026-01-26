@@ -23,7 +23,7 @@ jobs:
         run: pip install pyyaml
 
       - name: Create software table
-        run: python3 format_software_info.py
+        run: make build
 
       # From https://github.com/marketplace/actions/zensical-action#deploy
       - name: Zensical Action
