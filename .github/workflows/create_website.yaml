@@ -25,14 +25,9 @@ jobs:
       - name: Create software table
         run: python3 format_software_info.py
 
-      - name: Put TOML file where it is expected to be
-        run: cp template/zensical.toml .
-
-      # Cannot use this, unless 'zensical.toml' is in the repository root,
-      # See https://github.com/menzzana/NAISS-support-web/issues/8#issuecomment-3798193735
       # From https://github.com/marketplace/actions/zensical-action#deploy
-      #- name: Zensical Action
-      #  id: zensical
-      #  uses: cssnr/zensical-action@v1
+      - name: Zensical Action
+        id: zensical
+        uses: cssnr/zensical-action@v1
 
 
