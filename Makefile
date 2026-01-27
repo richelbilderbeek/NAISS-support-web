@@ -12,7 +12,7 @@ build:
 serve:
 	make clean
 	python3 format_software_info.py
-	#zensical serve
+	zensical serve
 # As we do not have a site, this does not work at them moment
 # public:
 #	python3 update_docs.py

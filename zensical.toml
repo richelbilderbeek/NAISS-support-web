@@ -109,16 +109,14 @@ features = [
 
 ]
 
-
 [project.theme]
 custom_dir = "overrides"
-
 
 # This was used for MkDocs
 # site_dir = "site"
 
-site_url = "https://richelbilderbeek.github.io/NAISS-support-web/"
-repo_url = "https://github.com/richelbilderbeek/NAISS-support-web"
+site_url = "https://menzzana.github.io/NAISS-support-web/"
+repo_url = "https://github.com/menzzana/NAISS-support-web"
 edit_uri = "blob/main/docs/"
 
 [project]
@@ -126,7 +124,7 @@ site_name = "NAISS High Performance Computing"
 docs_dir = "docs"
 auto_nav = false
 
-extra_css = ["static/css/styles.css"]
+extra_css = ["docs/static/css/styles.css"]
 
 nav = [
   { "Home" = "index.md"},
