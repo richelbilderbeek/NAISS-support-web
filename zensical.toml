@@ -109,8 +109,10 @@ features = [
 
 ]
 
+
 [project.theme]
 custom_dir = "overrides"
+
 
 # This was used for MkDocs
 # site_dir = "site"
@@ -123,6 +125,8 @@ edit_uri = "blob/main/docs/"
 site_name = "NAISS High Performance Computing"
 docs_dir = "docs"
 auto_nav = false
+
+extra_css = ["docs/static/css/styles.css"]
 
 nav = [
   { "Home" = "index.md"},
