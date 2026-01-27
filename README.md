@@ -83,6 +83,14 @@ The site is published automatically upon a `git push`.
 
 ## Technical FAQ
 
+### I edit [`zensical.toml`](zensical.toml) and nothing happens. Why?
+
+This is because by `make build` is it overwritten.
+
+[We know this is a problem](https://github.com/menzzana/NAISS-support-web/issues/11).
+
+Edit `template/zensical.toml` instead.
+
 ### Why is [`template/zensical.toml`](template/zensical.toml) broken?
 
 Because the [`format_software_info.py`](format_software_info.py) script creates
