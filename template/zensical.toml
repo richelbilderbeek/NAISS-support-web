@@ -174,5 +174,5 @@ nav = [
 
 
 # This file intentionally ends here and -indeed- there are some missing braces.
-# That is because the file 'update_docs.py' (in the project root)
+# That is because the file 'format_software_info.py' (in the project root)
 # adds the last items to this incomplete table of content.
